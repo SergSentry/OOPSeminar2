@@ -5,4 +5,5 @@ public interface QueueBehaviour {
     void takeOrders();
     void giveOrders();
     void releaseFromQueue();
+    void releaseFromQueue(Actor actor);
 }
